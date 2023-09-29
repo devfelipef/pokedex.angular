@@ -1,0 +1,6 @@
+<main>
+    <div class="card" *ngFor="let pokemon of pokemons; index as i">
+        <img [src]="pegarImagemPokemon(i+1)">
+    <h1>{{pokemon.name}}</h1></div>
+    
+</main>
